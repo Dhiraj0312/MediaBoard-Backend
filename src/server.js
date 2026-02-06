@@ -84,6 +84,8 @@ app.use(cors({
       process.env.FRONTEND_URL || 'http://localhost:3000',
       'http://localhost:3000',
       'http://localhost:3001',
+      // Production frontend URL
+      'https://media-board-frontend.vercel.app',
       // Allow player to access API from same origin
       `http://localhost:${PORT}`,
       `http://127.0.0.1:${PORT}`
